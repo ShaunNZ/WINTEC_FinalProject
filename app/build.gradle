@@ -25,4 +25,12 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    // Adding IndoorAtlas' SDK
+    compile 'com.indooratlas.android:indooratlas-android-sdk:2.8.2@aar'
+    }
+    repositories{
+        maven {
+            url "http://indooratlas-ltd.bintray.com/mvn-public"
+        }
 }
